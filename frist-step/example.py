@@ -49,10 +49,18 @@
 # func(c=30,a=20)
 # print(func.__doc__)
 
-import sys,use_name
+# import sys,use_name
+# from use_name import sayhi,version
+# sayhi()
+# dir(sys)
+# print("version",use_name.version)
+# print('The command line arguments are:')
+# for i in sys.argv:
+# 	print(i)
 
-print('The command line arguments are:')
-for i in sys.argv:
-	print(i)
+# print('\n\nThe PYTHONPATH is',sys.path,'n')
 
-print('\n\nThe PYTHONPATH is',sys.path,'n')
+age=22
+name='Swaroop'
+print('%s is %d years old' %(name,age))
+print('why is %s playing with that python' %name)
